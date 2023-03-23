@@ -30,7 +30,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "http://localhost:8080/api/v1/dalle",
+          "http://localhost:8080/api/v1/post",
           {
             method: "POST",
             headers: {
